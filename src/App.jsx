@@ -23,7 +23,7 @@ function App() {
   // Hooks
   const [length, setLength] = useState(8);
   const [isNumber, setIsNumber] = useState(false);
-  const [isSpecialChars, setIsSpecialChars] = useState(true);
+  const [isSpecialChars, setIsSpecialChars] = useState(false);
   const [passGen, setPassGen] = useState("");
 
   const PasswordGenrator = useCallback(() => {
